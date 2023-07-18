@@ -33,8 +33,8 @@ body.dark {
 }
 .container .clock {
   display: flex;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -93,12 +93,12 @@ body.dark {
 }
 .mode-switch {
   padding: 10px 20px;
-  border-radius: 28px;
+  border-radius: 8px;
   font-size: 22px;
-  font-weight: 800;
+  font-weight: 400;
   display: inline-block;
   color: var(--white-color);
   background: var(--black-color);
-  box-shadow: 0 5px 10px rgb(0, 0, 0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
